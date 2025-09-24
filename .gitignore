@@ -1,0 +1,54 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output folders
+/bin/
+/build/
+/dist/
+
+# Vendor directory (uncomment if you want to check in vendor)
+/vendor/
+
+# Go workspace file
+go.work
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Editor temporary files
+*~
+*.swp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Coverage / profiling
+coverage.out
+*.coverprofile
+*.prof
+
+# Test cache
+_test
+
+# Go module cache (if you want to ignore module cache folders created locally)
+/pkg/mod/
+
+# Logs
+*.log
+
+# Misc
+node_modules/
